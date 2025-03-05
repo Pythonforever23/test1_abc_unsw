@@ -1,5 +1,7 @@
 # Changelog
 
+- 05/03: Update output in _1.3. Rendering_ to include Student ID.
+
 # Assessment 2 (Vanilla JS)
 
 [Please see course website for full spec](https://cgi.cse.unsw.edu.au/~cs6080/NOW/assessments/assignments/ass2)
@@ -54,7 +56,7 @@ The "output" refers to what the inner text should be of the textarea at the bott
 - If they haven't inputted a `Full Name`, or the `Full Name` entered is invalid, the output should be _"Please input a valid full name"_
 - If they have inputted a `Full Name`, but haven't inputted a `Student ID` / the `Student ID` is invalid, the output should be _"Please input a valid student ID"_
 - If they have inputted a `Full Name` and `Student ID`, but haven't inputted a `Graduation Date` / the `Graduation Date` is invalid, the output should be _"Please input a valid graduation date"_
-- If they have entered the above correctly, the output is _"My name is [Full Name], and I [graduate/graduated] [days_since/until_graduation]. I [major/majored] in [Major], and [favourite programming languages]."_
+- If they have entered the above correctly, the output is _"My name is [Full Name] ([Student ID]), and I [graduate/graduated] [days_since/until_graduation]. I [major/majored] in [Major], and [favourite programming languages]."_
   - If the `Graduation Date` is in the future,
     - [graduate/graduated] is _"graduate"_
     - [days_since/until_graduation] is _"in [X] days"_, where X is equal to the number of days between now and the `Graduation Date` regardless of time of day.
